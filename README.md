@@ -1,6 +1,7 @@
 # NFL 2024 Team Efficiency Analysis
 
 An exploratory analysis of NFL 2024 play by play data that compares team offenses by yards per play, success rate and EPA (expected points added) per play, with a SQLite database and a Streamlit app for exploring each team.
+**Live app:** https://nfl2024teamefficiency.streamlit.app/
 
 ## Question
 Does yards per play tell the whole story about how good an offense is?
@@ -26,6 +27,12 @@ Does yards per play tell the whole story about how good an offense is?
 2. Start the app: `streamlit run app.py`
 
 To rerun the analysis, download the dataset into `dataset/` (see above) and open `Proj1-NFLData.ipynb`.
+
+## Limitations
+- One season only (2024), so the results may not hold in other years.
+- The correlation is based on 32 teams, which is a small sample.
+- The analysis is descriptive. It shows how the measures relate, not what makes a team good.
+- The data includes playoff games, where only a few teams play.
 
 ## Skills practiced
 pandas, NumPy, SQL joins and window functions, Matplotlib, Seaborn, Plotly, Streamlit, git
